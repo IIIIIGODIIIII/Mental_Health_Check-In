@@ -7,11 +7,7 @@ This code is a console-based mental health assessment tool written in C++. It in
 -1 if the score indicates no diagnosis.
 0 if the score is inconclusive.
 
-2. end_karwado(): This function gives the user an option to exit the test at any time. If the user decides to exit, it displays a thank-you message and a disclaimer recommending official consultation.
-Specific Disorder Functions:
-
-Each of these functions (drugsf(), alcoholf(), dementiaf(), delirium(), etc.) asks a series of questions related to a specific disorder. They collect responses, calculate the sum, and use the rating function to determine if the user shows symptoms of the disorder.
-For example, drugsf() assesses symptoms related to drug use disorder, alcoholf() assesses alcohol use disorder, etc.
+2. end_karwado(): This function gives the user an option to exit the test at any time. If the user decides to exit, it displays a thank-you message and a disclaimer recommending official consultation. Specific Disorder Functions: Each of these functions (drugsf(), alcoholf(), dementiaf(), delirium(), etc.) asks a series of questions related to a specific disorder. They collect responses, calculate the sum, and use the rating function to determine if the user shows symptoms of the disorder. For example, drugsf() assesses symptoms related to drug use disorder, alcoholf() assesses alcohol use disorder, etc.
 
 3. kessler_pysco_test(): This function is intended to measure the psychotic distress level of a person. However, it is not defined in the provided code.
 
