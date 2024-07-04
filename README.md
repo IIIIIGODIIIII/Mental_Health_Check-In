@@ -28,3 +28,7 @@ This code is a console-based mental health assessment tool written in C++. It in
 14. Conduct Disorder
 15. Bereavement Disorders
 
+## Notes
+1. The code relies heavily on user input and assumes valid responses (either 1 for yes/positive or 0 for no/negative, or a scale of 0-10 for severity).
+2. The final diagnosis is indicative and not conclusive; it aims to prompt users to seek professional help if needed.
+
